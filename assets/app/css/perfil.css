@@ -1,0 +1,32 @@
+body{
+    background-color: #f2f2f2;
+}
+nav{
+    border-bottom: 1px solid black; 
+}
+
+
+.profile-pic-container {
+    position: relative;
+}
+
+.profile-pic-container:hover .edit-icon {
+    opacity: 1;
+}
+
+.profile-pic:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.edit-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn-pointer {
+    cursor: pointer;
+}

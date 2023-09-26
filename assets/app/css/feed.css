@@ -1,0 +1,30 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
+.botao-principal{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    width: 130px;
+    font-weight: 800;
+    transition-timing-function: ease-in; /* Adiciona uma transição suave de 0.2 segundos */
+}
+
+.botao-principal:hover .img-formula1{
+    transform: scale(1.3); /* Aumenta a escala da imagem em 20% */
+}
+
+.img-formula1{
+    width: 100%;
+}
+
+nav{
+    border-bottom: 1px solid black; 
+}
+
+.marca{
+    font-family: Courier;
+    font-weight: 800;
+}
